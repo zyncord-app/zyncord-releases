@@ -36,6 +36,8 @@ plugins and CSS themes. One exe, nothing to install.
 - **Profile cards.** Right-click anyone: banner, badges, bio, roles, what you have in common, a
   volume just for you.
 - **Go to (Ctrl K)**: channels from all your servers, conversations and actions in one list.
+- **Hear what you send.** Your voice and your music in your headphones exactly as Discord gets
+  them, through the same Opus encoding. No second account to check your sound (`H`).
 - **Local mutes.** By default nobody sees you muted.
 - **Stays out of the way.** Close the window and stay in voice from the notification area.
   Mute and deafen shortcuts work in game.
@@ -64,6 +66,7 @@ plugins and CSS themes. One exe, nothing to install.
 | `M` | Mute your voice (the music keeps going) |
 | `D` | Deafen |
 | `B` | Mute the music |
+| `H` | Hear what you send, exactly as Discord gets it |
 | `F` | Full screen on a stream, `Esc` to come back |
 | `Ctrl` `Shift` `M` | Mute your voice, from anywhere, even in game |
 | `Ctrl` `Shift` `D` | Deafen, from anywhere |
