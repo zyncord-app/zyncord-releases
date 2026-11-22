@@ -80,8 +80,15 @@ Appearance and reloaded as soon as you save them. They change colours, font and 
 side the drawer opens on, the grid, tile shape, round or square avatars.
 
 **Plugins** are in Settings → Plugins. The ones marked **Included** ship with every release:
-*Follow someone*, *Badges* and *Shown device*. Anything else is marked **Custom**: that label
-comes from the app itself, a plugin cannot change it.
+
+- *Follow someone*: you join a person when they change channel.
+- *Badges*: their Discord badges on their profile card.
+- *Shown device*: computer, phone or browser next to your status.
+- *Even voices*: everyone you hear at the same loudness, quiet voices up and loud ones down.
+- *Now playing*: `/np` in any message sends the track you are playing, `/nplink` adds its Spotify
+  link. ZynCord sends the finished message: the command never reaches Discord.
+
+Anything else is marked **Custom**: that label comes from the app itself, a plugin cannot change it.
 
 ## Updates
 
@@ -105,7 +112,8 @@ refused. Checking can be turned off in Settings → About.
 
 Your token stays on your PC, in `config.toml` next to the exe, and is only ever sent to Discord.
 ZynCord talks to Discord, to GitHub to check for updates, and to `cdn.jsdelivr.net` for emoji
-images. No analytics.
+images. `/nplink` sends the title and artist to `api.deezer.com` and `api.song.link` to find the
+link. No analytics.
 
 ---
 
