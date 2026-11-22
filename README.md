@@ -29,9 +29,11 @@ plugins and CSS themes. One exe, nothing to install.
   what you send, one strip per person in the channel (0 to 200 %), and your headphones.
 - **Console or grid.** Discord-style tiles with cameras inside and a "Watch the stream" tile per
   stream, with your voice, music and headphones kept at hand at the bottom.
-- **The drawer.** DMs and groups, your voice channel's chat with its log, and friends, next to
-  the console. Images, files, screenshots with Ctrl+V, stickers, reactions, replies, edits, and
+- **The drawer.** DMs and groups, and your voice channel's chat with its log, next to the
+  console. Images, files, screenshots with Ctrl+V, stickers, reactions, replies, edits, and
   private calls.
+- **Friends** behind their own button: who is in voice and where (one click to join), who is
+  online.
 - **Streams and cameras** in large, with the stream's sound on its own volume.
 - **Profile cards.** Right-click anyone: banner, badges, bio, roles, what you have in common, a
   volume just for you.
@@ -87,6 +89,8 @@ side the drawer opens on, the grid, tile shape, round or square avatars.
 - *Even voices*: everyone you hear at the same loudness, quiet voices up and loud ones down.
 - *Now playing*: `/np` in any message sends the track you are playing, `/nplink` adds its Spotify
   link. ZynCord sends the finished message: the command never reaches Discord.
+- *Clean voices*: removes background noise from the people you choose, or from everyone.
+- *Auto bitrate*: lowers your sending bitrate when your connection gets weak, then gives it back.
 
 Anything else is marked **Custom**: that label comes from the app itself, a plugin cannot change it.
 
